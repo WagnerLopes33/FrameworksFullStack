@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 
 
 app = Flask(__name__)
@@ -20,11 +20,12 @@ def media():
     media = (float(notaUm) + float(notaDois))/2
 
     if media >= 7:
-        return 'Aprovado'
+        resultado = 'Aprovado'
     elif media >= 4 and media < 7:
-        return 'Recuperação'
+        resultado = 'Recuperação'
     else:
-        return 'Reprovado'
+        resultado = 'Reprovado'
+return render_template('notas.html')
 
 
 if __name__ == '__main__':
