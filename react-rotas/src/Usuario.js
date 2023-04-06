@@ -7,8 +7,8 @@ export default function Usuario(){
             <h1>Home</h1>
             <Link to='/'>Retornar a página inicial</Link>
 
-            <h1>Usuario</h1>
-            <Link to='/usuario'>Ir para a página de usuário</Link>
+            <h1>Sobre</h1>
+            <Link to='/sobre/aula'>Ir para sobre</Link>
         </div>
     );
 }
