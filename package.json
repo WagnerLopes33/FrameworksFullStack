@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mini-create-react-context": "^0.4.1",
+    "react-router-dom": "^5.3.4"
+  }
+}
