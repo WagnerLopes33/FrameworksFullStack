@@ -10,8 +10,16 @@ export default function Usuario(){
             <h1>Sobre</h1>
             <Link to='/sobre/aula'>Ir para sobre</Link>
 
+            <h1>Usuario</h1>
+            <Link to='/usuario'>Usuario</Link>
+
             <h1>Contatos</h1>
-            <Link to='/contatos'>Ir para contatos</Link>
+            <p> 
+                <p>E-mail: teste@teste.com.br</p>
+                <p>Telefone: (xx)xxxx-xxxx</p>
+                <p>Whatsapp: (zz)zzzz-zzzz</p>
+                <p>Instagram: teste.teste</p>
+            </p>
         </div>
     );
 }

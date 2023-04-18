@@ -13,6 +13,9 @@ const Home = () =>{
           <li>
             <Link to='/usuario'>Usuario</Link>
           </li>
+          <li>
+          <Link to= '/contatos'>Contatos</Link>
+          </li>
         </ul>
       </nav>
     </div>
